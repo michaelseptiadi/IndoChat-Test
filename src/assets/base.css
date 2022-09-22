@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  width: 36px;
+  margin-bottom: 12px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 12px 20px;
+  color: white;
+  background-color: rgb(53, 103, 255);
+  border: 0px;
+  border-radius: 12px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.tab {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab ul {
+  border-bottom: 2px solid #000;
+  padding-bottom: 8px;
+}
+
+.tab ul li {
+  margin-left: 40px;
+}
+
+.tab label {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tab label:hover,
+.tab label:focus,
+.tab label:active {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tab-content {
+  margin-top: 24px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  height: 25px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .tab label {
+    font-size: 12px;
+  }
+}
