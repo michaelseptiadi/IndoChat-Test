@@ -82,4 +82,9 @@ export default {
     width: auto;
   }
 }
+@media only screen and (max-width: 480px) {
+  .discover {
+    margin-left: 25%;
+  }
+}
 </style>

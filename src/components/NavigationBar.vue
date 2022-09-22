@@ -22,12 +22,11 @@
 .navbar ul {
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
 }
 
 li {
   list-style: none;
-  padding: 28px 0;
+  padding: 24px 0;
 }
 
 li a {
@@ -45,5 +44,19 @@ li a:focus {
 img {
   width: 20px;
   padding: 0 36px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar ul {
+    justify-content: center;
+  }
+  li a {
+    padding: 12px 10px;
+    font-size: 12px;
+  }
+  img {
+    width: 20px;
+    padding: 0 0 0 24px;
+  }
 }
 </style>

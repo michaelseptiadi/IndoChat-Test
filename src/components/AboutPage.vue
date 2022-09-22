@@ -64,4 +64,20 @@ img {
     top: 40%;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 12px;
+    top: 20%;
+    width: 50%;
+  }
+  .right-section,
+  .left-section {
+    margin: -2px;
+    width: 100%;
+  }
+  img {
+    width: 125%;
+  }
+}
 </style>

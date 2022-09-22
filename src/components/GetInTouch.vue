@@ -148,4 +148,34 @@ textarea {
     height: 50px !important;
   }
 }
+@media only screen and (max-width: 480px) {
+  .get-touch {
+    width: 125%;
+  }
+  iframe,
+  .form {
+    width: 175px;
+    height: 300px;
+  }
+  .fullname input {
+    margin-top: 10px;
+  }
+  .title p {
+    font-size: 12px;
+  }
+  .search {
+    width: 300px;
+    height: 24px;
+  }
+  .input-form,
+  .fullname input {
+    width: 140px;
+    height: 16px;
+    font-size: 14px;
+    padding-left: 8px;
+  }
+  textarea {
+    height: 50px !important;
+  }
+}
 </style>
